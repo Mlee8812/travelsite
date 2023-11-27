@@ -1,29 +1,77 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/html">
+<html>
 <head>
-    <title>Travel Site - Home</title>
+    <title>Travel Site</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="travelnav">
-    <a class="active" href="#home">Home</a>
-    <a href="#Hawaii">Hawaii</a>
-    <a href="#Iceland">Iceland</a>
-    <a href="#Greece">Greece</a>
-</div>
-<div class="hero">
-    <p>Traveling Comes With Endless Discoveries<br>Don't let your dreams be just dreams. Experience the world by booking
-        a vacation with us now.</br</p>
-    <img src="/Images/hero.png" alt="hero" style="width:128px;height:128px;">
-</div>
-<div class="recommendations">
-    <a href="#Hawaii">Hawaii</a>
-    <img src="/Images/hawaii.jpg" alt="hawaii" style="width:128px;height: 128px;">
-    <a href="#Iceland">Iceland</a>
-    <img src="/Images/iceland.jpg" alt="iceland" style="width:128px;height: 128px;">
-    <a href="#Greece">Greece</a>
-    <img src="/Images/greece.jpg" alt="greece" style="width:128px;height: 128px;">
-</div>
-
-
+<header>
+    <h1>Travel Site</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="hawaii.html">Hawaii</a></li>
+            <li><a href="iceland.html">Iceland</a></li>
+            <li><a href="greece.html">Greece</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <section id="banner">
+        <img src="/Images/hero.png" alt="hero" width="200" height="200" style="position: absolute;right: 0%">
+        <div class="text">
+            <h2>Travelling Comes With</h2>
+            <h3>Endless Discoveries</h3>
+            <p>Don't let your dreams be just dreams. Experience the world by booking a vacation with us now.</p>
+            <a href="#">Get started</a>
+        </div>
+    </section>
+    <section id="recommendations">
+        <h2>Recommendations</h2>
+        <div class="destinations">
+            <div class="destination">
+                <img src="/Images/hawaii.jpg" alt="Hawaii">
+                <div class="text">
+                    <h3>Hawaii</h3>
+                    <p>Experience the beauty of Hawaii with its stunning beaches, lush rainforests, and active volcanoes.</p>
+                </div>
+            </div>
+            <div class="destination">
+                <img src="/Images/iceland.jpg" alt="Iceland">
+                <div class="text">
+                    <h3>Iceland</h3>
+                    <p>Marvel at the natural wonders of Iceland, including its glaciers, waterfalls, and black sand beaches.</p>
+                </div>
+            </div>
+            <div class="destination">
+                <img src="/Images/greece.jpg" alt="Greece">
+                <div class="text">
+                    <h3>Greece</h3>
+                    <p>Explore the ancient ruins and charming villages of Greece, while enjoying its delicious food and Mediterranean climate.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+<footer>
+    <div class="contact">
+        <h2>Contact</h2>
+        <p>info@travelsite.com</p>
+    </div>
+    <div class="hours">
+        <h2>Hours</h2>
+        <p>Monday - Friday: 9:00 AM - 5:00 PM</p>
+        <p>Saturday: 10:00 AM - 4:00 PM</p>
+        <p>Sunday: Closed</p>
+    </div>
+    <div class="social">
+        <h2>Social</h2>
+        <ul>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">Instagram</a></li>
+        </ul>
+    </div>
+</footer>
 </body>
 </html>
