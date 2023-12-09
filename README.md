@@ -1,4 +1,4 @@
-# travelsite
+# Travelsite
 
 Responsive Travel Website
 
