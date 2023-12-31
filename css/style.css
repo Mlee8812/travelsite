@@ -1,160 +1,94 @@
-button {
-    background-color: #5969d0;
-    border-radius: 100px;
-    color: #ffffff;
-    border: none;
-    padding: 10px 50px;
-}
-
-button:hover {
-    background-color: #3847a7;
-    cursor: pointer;
-}
-
-/* Header */
-
-/* Hero Section */
-
-.hero {
-    margin-top: 3vh;
-    background-color: #f8f8f8;
+/* Hero Section Starts Here */
+.main-hero-section{
+    background-color: #FEFAF5;
+    height: 35rem;
     display: flex;
-    padding: 6vw;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.main-hero-section__left{
+    width: 50%;
+}
+.main-hero-section__heading{
+    color: #335576;
+    font-size: 2rem;
+    padding: 0.5rem 0;
+    width: 70%;
+}
+.main-hero-section__paragraph{
+    color: #335576;
+    font-weight: 200;
+    padding: 2rem 0;
+    margin-bottom: 1rem;
+}
+.main-hero-section__button{
+    text-decoration: none;
+    background-color: #DB7A4E;
+    color: white;
+    font-weight: 100;
+    border-radius: 4rem;
+    padding: 0.7rem 3rem;
+}
+.main-hero-section__button:hover{
+    background-color: #DB7A4E;
+    color: white;
+    opacity: 0.8;
+}
+.main-hero-section img{
+    height: 22rem;
+    margin-top: 2rem;
+}
+/* Hero Section Ends Here */
+/* Recommendations Section Starts Here */
+.main-recomendations h1{
+    color: #335576;
+    font-size: 1.4rem;
+    margin: 3rem 4.4rem;
+}
+.main-recomendations-section{
+    color: #335576;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 3rem 12rem;
 }
 
-.hero__text {
-    width: 60%;
-    text-align: justify;
+.main-recomendations-section__cards{
+    position:relative;
 }
-
-.hero__header {
-    font-family: 'Comic Neue', cursive; /* I had to use this font because Comic Sans wasn't available */
-    font-size: 3rem;
-    font-weight: bold;
-    color: #101d42;
+.main-recomendations-section__cards:hover{
+    opacity: 20%;
 }
-
-.hero__paragraph {
-    margin-bottom: 3vh;
-}
-
-.hero__image {
-    width: 40%;
-}
-
-#hero-image {
-    width: 100%;
-    height: 100%;
-}
-
-/* Main */
-
-/* Recommendations Section */
-
-.recommend {
-    padding: 3%;
-}
-
-.recommend__title {
-    margin-bottom: 4vh;
-    color: #101d42;
-}
-
-.recommend__card {
-    text-align: center;
-    display: inline-flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-
-.recommend__card--country {
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    border-radius: 5px;
-    width: 20%;
-    margin-right: 4%;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2);
-    height: 350px;
-    position: relative;
-}
-
-.recommend__card--country:hover {
-    transition: 0.3s;
-    opacity: 0.4;
-}
-
-.recommend__card--image {
-    height: 100%;
-    width: 100%;
-    border-radius: 5px;
-}
-
-.recommend__card--text {
-    font-size: 1.7rem;
-    color: #ffffff;
-    margin: 25px 10px;
+.main-recomendations-section__cards p{
+    color: white;
+    font-weight: 600;
+    font-size: 26px;
+    bottom: 1rem;
+    right: 1rem;
     position: absolute;
-    bottom: 0;
-    right: 10px;
+    z-index: 1;
 }
-
-/* Responsive breakpoints */
-/* I worked a little with the breakpoints but not all dimensions will look good */
-
-@media (max-width: 992px) {
-    .hero__header {
-        font-size: 2rem;
-    }
-
-    .recommend__title {
-        font-size: 1.2rem;
-    }
-
-    .recommend__card--country {
-        height: 250px;
-    }
-
-    .recommend__card--text {
-        font-size: 1.2rem;
-    }
+.main-recomendations__hawaii img{
+    height: 24rem;
+    width: 15.9rem;
+    box-shadow: 0 4px 4px rgba(0, 0, 0,0.2);
+    border-radius: 5px;
+    border: 1px solid black rgba(0, 0, 0, 0.2);
 }
-
-@media (max-width: 768px) {
-    .hero__header {
-        font-size: 1rem;
-    }
-
-    .hero__text {
-        text-align: center;
-        width: 100%;
-    }
-
-    .hero__image {
-        display: none;
-        visibility: hidden;
-    }
-
-    .hero__paragraph {
-        font-size: 0.8rem;
-    }
-
-    .recommend__title {
-        font-size: 1rem;
-    }
-
-    .recommend__card--country {
-        height: 300px;
-        width: 60%;
-        margin-bottom: 20px;
-    }
-
-    .recommend__card--text {
-        font-size: 1.2rem;
-    }
-
-    button {
-        padding: 5px 25px;
-    }
+.main-recomendations__iceland img{
+    height: 24rem;
+    width: 16.1rem;
+    box-shadow: 0 4px 4px rgba(0, 0, 0,0.2);
+    border-radius: 5px;
+    border: 1px solid black rgba(0, 0, 0, 0.2);
 }
+.main-recomendations__greece img{
+    height: 24rem;
+    width: 16.1rem;
+    box-shadow: 0 4px 4px rgba(0, 0, 0,0.2);
+    border-radius: 5px;
+    border: 1px solid black rgba(0, 0, 0, 0.2);
+}
+/* Recommendations Section Ends Here */
 
 

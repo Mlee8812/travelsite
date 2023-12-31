@@ -1,0 +1,67 @@
+.iceland-main{
+    background-image: url(/travel/Images/iceland.jpg);
+    height: 45rem;
+    background-position: center;
+    background-size: cover;
+}
+.greece-main{
+    background-image: url(/travel/Images/greece.jpg);
+    height: 45rem;
+    background-position: center;
+    background-size: cover;
+}
+
+.hawaii-main{
+    background-image: url(/travel/Images/hawaii.jpg);
+    height: 45rem;
+    background-position: center;
+    background-size: cover;
+}
+.main-itinerary__card h1{
+    font-size: 4.5rem;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 40rem;
+    margin-right: 53.5rem;
+    position: absolute;
+}
+
+/* end of main */
+/* cards */
+.main-itinerary__card{
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    height: 37rem;
+    /* padding-top: 10rem; */
+    padding: 10rem 6rem;
+    /* margin-left: -45rem; */
+    margin: 0 -20rem;
+}
+.cards-continer{
+    margin: 0 -26rem;
+    position: relative;
+}
+.cards-continer__list{
+    background-color: white;
+    width: 15rem;
+    height: 20rem;
+    list-style-type: none;
+    text-align: center;
+    border-radius: 5px;
+    margin-bottom: 10.5rem;
+}
+
+.container-list-day__activities{
+    padding: 0.8rem 0.5rem;
+    background-color: #fefaf5;
+    margin: 1rem 1rem;
+    width: 80%;
+}
+.container-list-day{
+    border-bottom: 0.2rem solid black;
+    font-weight: 900;
+    font-size: large;
+    padding-top: 0.5rem;
+    margin: auto;
+}
