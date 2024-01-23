@@ -13,3 +13,6 @@ CSS: Used for styling and layout, ensuring a visually appealing and cohesive des
 
 Features
 Responsive Design: Ensures an optimal user experience on desktop
+
+
+![Screenshot 2024-01-23 at 2 56 59 PM](https://github.com/Mlee8812/travelsite/assets/97935821/6dcdc4ca-153f-4c06-93a6-cbc94e456ec6)
